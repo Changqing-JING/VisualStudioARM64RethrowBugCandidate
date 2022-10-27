@@ -7,7 +7,7 @@ int main(){
      throw std::exception();
   }
   catch (...) { 
-    std::cout << "other catched" << std::endl;
+    std::cout << "other catch" << std::endl;
     return 3;
   }
 }
